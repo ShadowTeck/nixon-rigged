@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    cursor: url('img/cursor.png'), pointer;
+    background-color: rgb(184, 223, 255);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: rgb(252, 73, 73);
+    border-bottom: blue 3px solid;
+    background-color: rgb(184, 223, 255);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    padding-bottom: 15px;
+}
+
+p {
+    padding-bottom: 15px;
+}
+
+#small-text {
+    font-size: 5px;
+}
+
+#even-smaller {
+    font-size: 1px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 100vh;
+    background-color: #81c4ff;
+}
+
+.pres {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 15px;
+}
+
+.nix {
+    width: 300px;
+    height: 450px;
+    margin: 5px;
+    flex-direction: column;
+    transform: rotate(0deg);
+    transition: all 10s;
+}
+
+.nix img {
+    width: 100%;
+    height: 400px;
+    filter: invert(0);
+}
+
+button {
+    width: 50px;
+    height: 30px;
+    margin: 5px;
+    background-color: black;
+    color: white
+}
+
+#nixon{
+    color: red;
+    width: 150px;
+    height: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+#nixon:hover {
+    border: 2px solid #ffffff;
+    transition: .5s all;
+    cursor: url('img/cursor.png'), pointer;
+}
+
+#nixon:active {
+    background-color: blue;
+}
+
+#boring:hover {
+    font-family: monospace;
+    font-size: 10px;
+    color: gray;
+}
+
+.geo {
+    width: 300px;
+    height: 450px;
+    margin: 5px;
+    flex-direction: column;
+    position: absolute;
+    transition: all .2s;
+    overflow: hidden;
+    filter:blur(0px) contrast(0px);
+    transform: rotate(0deg);
+}
+
+.geo img {
+    width: 100%;
+    height: 400px;
+}
+
+.geo-wrap {
+    width: 300px;
+    height: 450px;
+    margin: 5px;
+    flex-direction: column;
+}
+
+.john {
+    width: 300px;
+    height: 450px;
+    margin: 5px;
+    flex-direction: column;
+}
+
+.john img {
+    width: 100%;
+    height: 400px;
+}
+
+#gman {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
